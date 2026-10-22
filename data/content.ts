@@ -48,6 +48,18 @@ export const securityCards = [
   ["Decisiones explicables", "La calificación viene acompañada de razones que ayudan a conversar y decidir.", "eye"],
 ];
 
+export const confidentialityNotice = {
+  eyebrow: "Cuidado de la información",
+  title: "Aviso de Confidencialidad",
+  paragraphs: [
+    "En Aprobapp tratamos la información de las personas solicitantes con responsabilidad y confidencialidad, procurando que cada dato se utilice únicamente para apoyar la evaluación de crédito.",
+    "El acceso a la información se limita a los equipos que participan en el proceso y necesitan consultarla para realizar su trabajo. Buscamos mantener controles claros para protegerla durante su consulta y revisión.",
+    "Las explicaciones y calificaciones que muestra la plataforma se generan para acompañar la decisión del oficial de crédito. La información se revisa dentro del contexto de cada solicitud y no sustituye el criterio humano.",
+    "Conservamos los registros necesarios para dar seguimiento y revisar el funcionamiento del sistema, siempre con enfoque en la protección de la información y la mejora responsable del servicio.",
+  ],
+  updatedAt: "Última actualización: octubre de 2026",
+};
+
 export const faqs = [
   ["¿Aprobapp aprueba o rechaza una solicitud?", "No. Aprobapp entrega una calificación de riesgo y una explicación breve para apoyar al oficial. La decisión final siempre corresponde a una persona."],
   ["¿Qué significa la calificación de riesgo?", "Es una señal de apoyo que resume el perfil de la solicitud con base en las variables definidas por el equipo de riesgo."],
